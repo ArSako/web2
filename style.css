@@ -1,0 +1,35 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.btnPlus {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnPlus:active{
+    border: 2px;
+    outline: none;
+}
+
+.btnMinus {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnMinus:active{
+    border: 2px;
+    outline: none;
+}
+
+.content_btns {
+    display: flex;
+    margin: auto;
+}
+.content_score {
+    display: flex;
+    font-size: 25px;
+}
